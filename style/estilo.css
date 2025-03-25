@@ -3,8 +3,8 @@
     --second: #0663A6;
     --backgrond: #fff;
     --bg-header: #A5CED2;
-    --text-light: #333;
-    --text-dark: #fff
+    --text1: #333;
+    --text2: #fff;
 
     --font-weight1: 700;
     --font-weight2: 900;
@@ -35,6 +35,15 @@ p{
 }
 a{
     font-family: var(--font-family1);
+}
+.busca{
+    display: flex;
+    margin: 0 auto 40px;
+    padding: 20px;
+    font-size: var(--font-3);
+    background-color: var(--primary);
+    color: var(--text2);
+    justify-content: center;
 }
 .profile{
     display: flex;
